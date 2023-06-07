@@ -6,7 +6,6 @@
 //
 // Execute `rustlings hint vecs2` or use the `hint` watch subcommand for a hint.
 
-// I AM NOT DONE
 
 fn vec_loop(mut v: Vec<i32>) -> Vec<i32> {
     for element in v.iter_mut() {
@@ -19,8 +18,10 @@ fn vec_map(v: &Vec<i32>) -> Vec<i32> {
     //.map can only be applied to iterables 
     //Therefore, to apply the map() function to a vector,​
     // we need to first convert it to an iterable.
+
+    //tbh I didn't quite get that
     v.iter().map(|element| {
-        element *= 2; // (element, v)
+        element * 2 // (element, v)
     }).collect()
 }
 
