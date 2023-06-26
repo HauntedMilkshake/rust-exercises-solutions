@@ -24,7 +24,7 @@ mod tests {
         let green = ColorClassicStruct{
             red: 0,
             green: 255,
-            blue: 16,
+            blue: 0,
 
         };
 
